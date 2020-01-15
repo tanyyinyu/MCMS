@@ -1,0 +1,11 @@
+[user]
+	email = you@example.com
+	name = Your Name
+[alias]
+	ci = commit -m
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	reset = reset --hard
+	ls = ls-remote origin
+	br = branch
+[push]
+	default = simple
